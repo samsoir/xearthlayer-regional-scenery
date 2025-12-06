@@ -1,0 +1,5 @@
+# Package contents (distributed via releases, not git)
+packages/
+
+# Archive files (distributed via releases)
+dist/
