@@ -1,6 +1,10 @@
 XEARTHLAYER REGIONAL SCENERY PACKAGE LIBRARY
 1.0.0
 EARTH
-0
-2025-12-06T00:39:53Z
-0
+2
+2025-12-06T01:44:27Z
+2
+
+
+6c8b2c25cb74b504059f7e3fee670e7e26fead3e34074c13ca32b01a51dd5949  Y  NA  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-v0.1.0/yzXEL_na_overlay-metadata.txt
+f32da4529bf1812e1ce97ea086734cb4c4cd2251899dd62347b0c8811ce7d105  Z  NA  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-v0.1.0/zzXEL_na_ortho-metadata.txt
