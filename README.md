@@ -4,9 +4,9 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ## Coverage Map
 
-**[View Interactive Coverage Map](coverage.geojson)** - Click to explore exact tile coverage
+![Tile Coverage Map](coverage.png)
 
-![Coverage regions: NA (blue), EU (orange)](https://img.shields.io/badge/Regions-NA%20%7C%20EU-blue)
+*NA tiles shown in blue, EU tiles in orange. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
