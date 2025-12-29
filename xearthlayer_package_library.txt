@@ -1,12 +1,12 @@
 XEARTHLAYER REGIONAL SCENERY PACKAGE LIBRARY
 1.0.0
 EARTH
-6
-2025-12-29T07:11:19Z
+8
+2025-12-29T08:25:17Z
 4
 
 
 192a2d774676af85ec7c38c042866b5fb302e769cba23915a33a72cc97c7e679  Y  EU  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/eu-v0.1.0/yzXEL_eu_overlay-metadata.txt
 2daea8b2253ddcd1c429678202600e517114320f770cab3683b556086db5ef23  Z  EU  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/eu-v0.1.0/zzXEL_eu_ortho-metadata.txt
-9bacb7f16af373f6120f8c9af02104c8d7d59e525ec78672397e1ac10ae43cd7  Y  NA  0.2.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-v0.2.0/yzXEL_na_overlay-metadata.txt
-f369fda9e8e86bc5013112700461deff254a443c9a44a4ae27c79a399f5a0dac  Z  NA  0.2.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-v0.2.0/zzXEL_na_ortho-metadata.txt
+ffa161bc5ea5557cb24705144e06856739d178d89c1ce6e65d854134c273f608  Y  NA  0.2.1  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-v0.2.1/yzXEL_na_overlay-metadata.txt
+13ea7aebed8370461df87b2aa1679080320c4f3651558cb9befc6f4403fe9a33  Z  NA  0.2.1  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-v0.2.1/zzXEL_na_ortho-metadata.txt
