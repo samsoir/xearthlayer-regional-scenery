@@ -2,27 +2,33 @@
   "regions": {
     "EU": {
       "name": "Europe",
-      "coverage": "Western and Central Europe"
+      "coverage": "Western and Central Europe",
+      "color": "orange"
     },
     "NA": {
       "name": "North America",
-      "coverage": "United States, Canada, Caribbean"
+      "coverage": "United States, Canada, Caribbean",
+      "color": "blue"
     },
     "SA": {
       "name": "South America",
-      "coverage": "Brazil (more coming)"
+      "coverage": "Brazil (more coming)",
+      "color": "green"
     },
     "OC": {
       "name": "Oceania",
-      "coverage": "Australia, New Zealand, Pacific Islands"
+      "coverage": "Australia, New Zealand, Pacific Islands",
+      "color": "purple"
     },
     "AS": {
       "name": "Asia",
-      "coverage": "Coming soon"
+      "coverage": "Coming soon",
+      "color": "red"
     },
     "AF": {
       "name": "Africa",
-      "coverage": "Coming soon"
+      "coverage": "Coming soon",
+      "color": "cyan"
     }
   }
 }
