@@ -69,6 +69,24 @@ Geographic extent: -33° to +05° latitude, -074° to -035° longitude
 
 *Note: Coverage for the rest of South America will follow in future releases.*
 
+## Website Sync
+
+When the library index is updated, changes are automatically synced to [xearthlayer.app](https://xearthlayer.app):
+
+1. Push to `main` with changes to `xearthlayer_package_library.txt`
+2. `notify-website.yml` triggers `repository_dispatch` to the website repo
+3. Website fetches updated library and regenerates package documentation
+4. Site deploys automatically
+
+### Required Setup
+
+The `WEBSITE_DISPATCH_TOKEN` secret must be configured with a fine-grained PAT that has:
+- **Repository access:** `samsoir/xearthlayer-website`
+- **Permissions:** Contents (read/write)
+- **Expiration:** 90 days (maximum for fine-grained tokens)
+
+Set a calendar reminder to refresh the token before expiration. The daily cron fallback ensures syncs still occur if the token expires.
+
 ## License
 
 Scenery data generated from publicly available satellite imagery.
