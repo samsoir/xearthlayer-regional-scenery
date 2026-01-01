@@ -6,7 +6,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles shown in blue, EU tiles in orange. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, SA tiles in green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
@@ -14,6 +14,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 |--------|------|---------|-------|------------|--------------|
 | Europe | EU | 0.1.0 | 1,119 | 26.4 GB | 2.1 GB |
 | North America | NA | 0.2.1 | 2,107 | 35.9 GB | 1.8 GB |
+| South America | SA | 0.1.0 | 811 | 10.9 GB | 624 MB |
 
 ## Installation
 
@@ -58,6 +59,15 @@ Expanded coverage including:
 - **Mexico** - Coverage areas
 
 Geographic extent: +07° to +71° latitude, -078° to -163° longitude
+
+### South America (SA) v0.1.0
+
+Initial release covering:
+- **Brazil** - Comprehensive coverage
+
+Geographic extent: -33° to +05° latitude, -074° to -035° longitude
+
+*Note: Coverage for the rest of South America will follow in future releases.*
 
 ## License
 
