@@ -1,0 +1,20 @@
+name: Notify Website of Package Updates
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'xearthlayer_package_library.txt'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger website sync
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          repository: samsoir/xearthlayer-website
+          event-type: package-library-updated
+          client-payload: '{"source": "xearthlayer-regional-scenery"}'
