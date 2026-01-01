@@ -1,0 +1,28 @@
+{
+  "regions": {
+    "EU": {
+      "name": "Europe",
+      "coverage": "Western and Central Europe"
+    },
+    "NA": {
+      "name": "North America",
+      "coverage": "United States, Canada, Caribbean"
+    },
+    "SA": {
+      "name": "South America",
+      "coverage": "Brazil (more coming)"
+    },
+    "OC": {
+      "name": "Oceania",
+      "coverage": "Australia, New Zealand, Pacific Islands"
+    },
+    "AS": {
+      "name": "Asia",
+      "coverage": "Coming soon"
+    },
+    "AF": {
+      "name": "Africa",
+      "coverage": "Coming soon"
+    }
+  }
+}
