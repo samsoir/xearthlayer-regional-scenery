@@ -12,8 +12,8 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 | Region | Code | Version | Tiles | Ortho Size | Overlay Size |
 |--------|------|---------|-------|------------|--------------|
-| Europe | EU | 0.1.0 | 1,119 | 26.4 GB | 2.1 GB |
-| North America | NA | 0.2.1 | 2,107 | 35.9 GB | 1.8 GB |
+| Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
+| North America | NA | 0.2.2 | 2,843 | 71.6 GB | 2.2 GB |
 | Oceania | OC | 0.1.0 | 907 | 7.3 GB | 224 MB |
 | South America | SA | 0.1.0 | 811 | 10.9 GB | 624 MB |
 
@@ -36,9 +36,9 @@ For manual downloads, see the [Releases](https://github.com/samsoir/xearthlayer-
 
 ## Coverage Details
 
-### Europe (EU) v0.1.0
+### Europe (EU) v0.1.1
 
-Initial release covering:
+Expanded coverage including:
 - United Kingdom & Ireland
 - France, Germany, Benelux
 - Spain, Portugal
@@ -49,7 +49,7 @@ Initial release covering:
 - Mediterranean (Greece, Turkey, Cyprus)
 - Baltic States
 
-### North America (NA) v0.2.1
+### North America (NA) v0.2.2
 
 Expanded coverage including:
 - **Hawaii** - Main islands
