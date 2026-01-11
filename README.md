@@ -15,7 +15,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
 | North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
 | Oceania | OC | 0.1.0 | 907 | 7.3 GB | 224 MB |
-| South America | SA | 0.1.0 | 811 | 10.9 GB | 624 MB |
+| South America | SA | 0.2.0 | 1,734 | 26.5 GB | 1.1 GB |
 
 ## Installation
 
@@ -70,14 +70,18 @@ Initial release covering:
 
 Geographic extent: -48° to -11° latitude, +112° to +179° longitude
 
-### South America (SA) v0.1.0
+### South America (SA) v0.2.0
 
-Initial release covering:
+Complete continental coverage including:
 - **Brazil** - Comprehensive coverage
+- **Argentina** - Full coverage including Patagonia
+- **Chile** - Full coverage from Atacama to Tierra del Fuego
+- **Peru, Bolivia, Ecuador, Colombia, Venezuela** - Complete coverage
+- **Paraguay, Uruguay, Guyana, Suriname, French Guiana** - Complete coverage
+- **Falkland Islands** - Included
+- **Offshore Islands** - Galápagos and other coastal islands
 
-Geographic extent: -33° to +05° latitude, -074° to -035° longitude
-
-*Note: Coverage for the rest of South America will follow in future releases.*
+Geographic extent: -56° to +00° latitude (Equator to Cape Horn)
 
 ## Website Sync
 
