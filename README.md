@@ -14,7 +14,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 |--------|------|---------|-------|------------|--------------|
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
 | North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
-| Oceania | OC | 0.1.0 | 907 | 7.3 GB | 224 MB |
+| Oceania | OC | 0.2.0 | 1,276 | 8.7 GB | 239 MB |
 | South America | SA | 0.2.0 | 1,734 | 26.5 GB | 1.1 GB |
 
 ## Installation
@@ -61,14 +61,18 @@ Expanded coverage including:
 
 Geographic extent: +07° to +71° latitude, -078° to -163° longitude
 
-### Oceania (OC) v0.1.0
+### Oceania (OC) v0.2.0
 
-Initial release covering:
-- **Australia** - Complete coverage
+Expanded coverage including:
+- **Australia** - Complete mainland and Tasmania
 - **New Zealand** - North and South Islands
-- **Pacific Islands** - Papua New Guinea, Fiji, Vanuatu, New Caledonia, and surrounding islands
+- **Papua New Guinea** - Comprehensive coverage
+- **Fiji** - Main islands
+- **French Polynesia** - Tahiti and surrounding islands
+- **Vanuatu** - Island chain coverage
+- **Solomon Islands** - Major islands
 
-Geographic extent: -48° to -11° latitude, +112° to +179° longitude
+Geographic extent: -48° to +02° latitude, +112° to -149° longitude
 
 ### South America (SA) v0.2.0
 
