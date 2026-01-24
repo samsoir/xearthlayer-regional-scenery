@@ -20,9 +20,9 @@
       "coverage": "Australia, New Zealand, Fiji, French Polynesia, Papua New Guinea, Vanuatu, Solomon Islands",
       "color": "purple"
     },
-    "AS": {
-      "name": "Asia",
-      "coverage": "Coming soon",
+    "AS3": {
+      "name": "Asia - Part 3",
+      "coverage": "Indonesia, Malaysia, Philippines, Vietnam, Thailand, Japan, South Korea, Taiwan, Eastern Russia",
       "color": "red"
     },
     "AF": {

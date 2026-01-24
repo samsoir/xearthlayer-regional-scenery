@@ -6,12 +6,13 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, SA tiles in green, OC tiles in purple. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, SA tiles in green, OC tiles in purple, AS3 tiles in red. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
 | Region | Code | Version | Tiles | Ortho Size | Overlay Size |
 |--------|------|---------|-------|------------|--------------|
+| Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
 | North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
 | Oceania | OC | 0.2.0 | 1,276 | 8.7 GB | 239 MB |
@@ -73,6 +74,15 @@ Expanded coverage including:
 - **Solomon Islands** - Major islands
 
 Geographic extent: -48° to +02° latitude, +112° to -149° longitude
+
+### Asia - Part 3 (AS3) v0.1.0
+
+Initial release covering:
+- **South East Asia** - Indonesia, Malaysia, Singapore, Philippines, Vietnam, Thailand, Cambodia, Myanmar
+- **East Asia** - Japan (all main islands), South Korea, Taiwan
+- **Eastern Russia** - Sakhalin, Kuril Islands
+
+Geographic extent: -13° to +54° latitude, +96° to +152° longitude
 
 ### South America (SA) v0.2.0
 
