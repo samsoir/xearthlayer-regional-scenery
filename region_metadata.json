@@ -25,6 +25,11 @@
       "coverage": "Indonesia, Malaysia, Philippines, Vietnam, Thailand, Japan, South Korea, Taiwan, Eastern Russia",
       "color": "red"
     },
+    "AF2": {
+      "name": "Africa - Part 2",
+      "coverage": "Southern Africa including South Africa, Namibia, Botswana, Zimbabwe, Zambia, Mozambique, Madagascar, Tanzania, Kenya, DRC",
+      "color": "yellowgreen"
+    },
     "AF": {
       "name": "Africa",
       "coverage": "Coming soon",
