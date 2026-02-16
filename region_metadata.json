@@ -30,9 +30,9 @@
       "coverage": "Southern Africa including South Africa, Namibia, Botswana, Zimbabwe, Zambia, Mozambique, Madagascar, Tanzania, Kenya, DRC",
       "color": "yellowgreen"
     },
-    "AF": {
-      "name": "Africa",
-      "coverage": "Coming soon",
+    "AF1": {
+      "name": "Africa - Part 1",
+      "coverage": "North Africa including Morocco, Algeria, Tunisia, Libya, Egypt, Sudan, South Sudan, Ethiopia, Somalia, Djibouti, Chad, Niger, Nigeria, Cameroon, Central African Republic, Mali, Senegal, Gambia, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Benin, Mauritania, Western Sahara",
       "color": "cyan"
     }
   }

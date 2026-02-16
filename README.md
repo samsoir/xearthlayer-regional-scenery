@@ -6,12 +6,13 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, SA tiles in green, OC tiles in purple, AS3 tiles in red, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, SA tiles in green, OC tiles in purple, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
 | Region | Code | Version | Tiles | Ortho Size | Overlay Size |
 |--------|------|---------|-------|------------|--------------|
+| Africa - Part 1 | AF1 | 0.1.0 | 1,718 | 10.5 GB | 722.6 MB |
 | Africa - Part 2 | AF2 | 0.1.0 | 1,058 | 7.9 GB | 541 MB |
 | Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
@@ -75,6 +76,16 @@ Expanded coverage including:
 - **Solomon Islands** - Major islands
 
 Geographic extent: -48° to +02° latitude, +112° to -149° longitude
+
+### Africa - Part 1 (AF1) v0.1.0
+
+Initial release covering:
+- **North Africa** - Morocco, Algeria, Tunisia, Libya, Egypt, Western Sahara
+- **Sahel** - Mauritania, Mali, Niger, Chad, Sudan, South Sudan
+- **West Africa** - Senegal, Gambia, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Benin, Nigeria
+- **Central/East Africa** - Cameroon, Central African Republic, Ethiopia, Somalia, Djibouti
+
+Geographic extent: +03° to +37° latitude, -018° to +054° longitude
 
 ### Africa - Part 2 (AF2) v0.1.0
 
