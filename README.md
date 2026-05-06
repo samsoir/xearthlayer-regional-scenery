@@ -6,7 +6,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, SA tiles in green, OC tiles in purple, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
@@ -16,6 +16,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 | Africa - Part 2 | AF2 | 0.1.0 | 1,058 | 7.9 GB | 541 MB |
 | Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
+| Europe - Part 2 | EU2 | 0.1.0 | 883 | 11.1 GB | 578.9 MB |
 | North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
 | Oceania | OC | 0.2.0 | 1,276 | 8.7 GB | 239 MB |
 | South America | SA | 0.2.0 | 1,734 | 26.5 GB | 1.1 GB |
@@ -51,6 +52,20 @@ Expanded coverage including:
 - Eastern Europe (Poland, Czech Republic, Hungary, Balkans)
 - Mediterranean (Greece, Turkey, Cyprus)
 - Baltic States
+
+### Europe - Part 2 (EU2) v0.1.0
+
+Initial release covering:
+- **Eastern Europe** - Bulgaria, Romania, Moldova, Ukraine, Belarus
+- **Baltic States** - Estonia, Latvia, Lithuania (eastern coverage)
+- **Scandinavia** - Finland, Sweden (east), Norway (north and east)
+- **Eastern Mediterranean** - Turkey, Cyprus
+- **Caucasus** - Georgia, Armenia, Azerbaijan
+- **European Russia** - Moscow, St Petersburg, Volga region, North Caucasus
+- **Western Siberia** - extending to the Ural Mountains and slightly beyond
+- **Russian Arctic** - Kola, Kanin, Yamal, Gydan peninsulas, Novaya Zemlya
+
+Geographic extent: +35° to +77° latitude, +026° to +068° longitude
 
 ### North America (NA) v0.2.3
 

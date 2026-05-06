@@ -5,6 +5,11 @@
       "coverage": "Western and Central Europe",
       "color": "orange"
     },
+    "EU2": {
+      "name": "Europe - Part 2",
+      "coverage": "Eastern Europe, Scandinavia, Caucasus, and European Russia including Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus, Baltic States, Finland, Sweden, Norway, Turkey, Cyprus, Georgia, Armenia, Azerbaijan, and European Russia extending to the Ural Mountains",
+      "color": "tangerine"
+    },
     "NA": {
       "name": "North America",
       "coverage": "United States, Canada, Caribbean",
