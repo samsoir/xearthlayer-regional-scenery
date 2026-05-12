@@ -6,7 +6,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS2 tiles in crimson, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
@@ -14,6 +14,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 |--------|------|---------|-------|------------|--------------|
 | Africa - Part 1 | AF1 | 0.1.0 | 1,718 | 10.5 GB | 722.6 MB |
 | Africa - Part 2 | AF2 | 0.1.0 | 1,058 | 7.9 GB | 541 MB |
+| Asia - Part 2 | AS2 | 0.1.0 | 1,615 | 17.3 GB | 1.3 GB |
 | Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
 | Europe - Part 2 | EU2 | 0.1.0 | 883 | 11.1 GB | 578.9 MB |
@@ -111,6 +112,17 @@ Initial release covering:
 - **Islands** - Madagascar, Mauritius, Seychelles, Comoros, Réunion
 
 Geographic extent: -35° to +05° latitude, +08° to +58° longitude
+
+### Asia - Part 2 (AS2) v0.1.0
+
+Initial release covering:
+- **Middle East** - Saudi Arabia, UAE, Oman, Yemen, Qatar, Bahrain, Kuwait, Iran, Iraq, Syria, Jordan, Israel, Lebanon, eastern Turkey
+- **South Asia** - Pakistan, India, Nepal, Bhutan, Bangladesh, Sri Lanka, Maldives
+- **Central Asia** - Afghanistan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan
+- **Northern Asia** - Western China (Xinjiang, Tibet), western Mongolia, southern Russian border regions
+- **Indian Ocean Islands** - Chagos Archipelago, Lakshadweep, and other coastal/offshore islands
+
+Geographic extent: -08° to +55° latitude, +034° to +097° longitude
 
 ### Asia - Part 3 (AS3) v0.1.0
 

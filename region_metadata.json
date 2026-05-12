@@ -25,10 +25,25 @@
       "coverage": "Australia, New Zealand, Fiji, French Polynesia, Papua New Guinea, Vanuatu, Solomon Islands",
       "color": "purple"
     },
+    "AS1": {
+      "name": "Asia - Part 1",
+      "coverage": "China and Mongolia",
+      "color": "firebrick"
+    },
+    "AS2": {
+      "name": "Asia - Part 2",
+      "coverage": "Middle East, South Asia, and Central Asia including Saudi Arabia, UAE, Oman, Yemen, Iran, Iraq, Syria, Jordan, Israel, Lebanon, eastern Turkey, Afghanistan, Pakistan, India, Nepal, Bhutan, Bangladesh, Sri Lanka, Maldives, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, western China, western Mongolia, southern Russia, and Indian Ocean islands",
+      "color": "crimson"
+    },
     "AS3": {
       "name": "Asia - Part 3",
       "coverage": "Indonesia, Malaysia, Philippines, Vietnam, Thailand, Japan, South Korea, Taiwan, Eastern Russia",
       "color": "red"
+    },
+    "AS4": {
+      "name": "Asia - Part 4",
+      "coverage": "Russia east of the Ural Mountains extending to the Pacific peninsula",
+      "color": "palevioletred"
     },
     "AF2": {
       "name": "Africa - Part 2",
