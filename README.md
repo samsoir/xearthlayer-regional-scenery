@@ -6,7 +6,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS2 tiles in crimson, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS1 tiles in firebrick, AS2 tiles in crimson, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
@@ -14,6 +14,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 |--------|------|---------|-------|------------|--------------|
 | Africa - Part 1 | AF1 | 0.1.0 | 1,718 | 10.5 GB | 722.6 MB |
 | Africa - Part 2 | AF2 | 0.1.0 | 1,058 | 7.9 GB | 541 MB |
+| Asia - Part 1 | AS1 | 0.1.0 | 1,264 | 21.3 GB | 728 MB |
 | Asia - Part 2 | AS2 | 0.1.0 | 1,615 | 17.3 GB | 1.3 GB |
 | Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
@@ -112,6 +113,15 @@ Initial release covering:
 - **Islands** - Madagascar, Mauritius, Seychelles, Comoros, Réunion
 
 Geographic extent: -35° to +05° latitude, +08° to +58° longitude
+
+### Asia - Part 1 (AS1) v0.1.0
+
+Initial release covering:
+- **China** - Broad coverage of mainland China, including Xinjiang, Tibet, Inner Mongolia, and Hainan
+- **Mongolia** - Full country coverage
+- **Hong Kong** and **Macau** - Special Administrative Regions
+
+Geographic extent: +18° to +53° latitude, +073° to +134° longitude
 
 ### Asia - Part 2 (AS2) v0.1.0
 
