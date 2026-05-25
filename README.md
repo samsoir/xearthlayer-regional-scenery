@@ -6,7 +6,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS1 tiles in firebrick, AS2 tiles in crimson, AS3 tiles in red, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS1 tiles in firebrick, AS2 tiles in crimson, AS3 tiles in red, AS4 tiles in palevioletred, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
@@ -17,6 +17,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 | Asia - Part 1 | AS1 | 0.1.0 | 1,264 | 21.3 GB | 728 MB |
 | Asia - Part 2 | AS2 | 0.1.0 | 1,615 | 17.3 GB | 1.3 GB |
 | Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
+| Asia - Part 4 | AS4 | 0.1.0 | 2,705 | 23.1 GB | 408.7 MB |
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
 | Europe - Part 2 | EU2 | 0.1.0 | 883 | 11.1 GB | 578.9 MB |
 | North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
@@ -142,6 +143,19 @@ Initial release covering:
 - **Eastern Russia** - Sakhalin, Kuril Islands
 
 Geographic extent: -13° to +54° latitude, +96° to +152° longitude
+
+### Asia - Part 4 (AS4) v0.1.0
+
+Initial release covering Russia east of the Ural Mountains:
+- **Western Siberia** - extending east from the Urals (Tyumen, Omsk, Tomsk, Novosibirsk regions)
+- **Central Siberia** - Krasnoyarsk Krai, Tuva, Khakassia, Irkutsk Oblast, Buryatia
+- **Eastern Siberia / Yakutia** - Sakha Republic, Yakutsk, Lake Baikal area
+- **Russian Far East** - Khabarovsk Krai, Primorsky Krai (Vladivostok), Amur Oblast, Magadan
+- **Kamchatka Peninsula** - Petropavlovsk-Kamchatsky and the volcanic chain
+- **Chukotka Peninsula** - including territory across the antimeridian
+- **Russian Arctic Islands** - Severnaya Zemlya, New Siberian Islands, Wrangel Island, Franz Josef Land area
+
+Geographic extent: +42° to +81° latitude, +044° east through +180° / -180° to -169° west
 
 ### South America (SA) v0.2.0
 
