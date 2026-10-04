@@ -3,3 +3,6 @@ packages/
 
 # Archive files (distributed via releases)
 dist/
+
+# Merged Ortho4XP source trees used to build packages (tens of GB, never committed)
+staging/
