@@ -6,7 +6,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS1 tiles in firebrick, AS2 tiles in crimson, AS3 tiles in red, AS4 tiles in palevioletred, AF1 tiles in cyan, AF2 tiles in yellowish-green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS1 tiles in firebrick, AS2 tiles in crimson, AS3 tiles in red, AS4 tiles in palevioletred, AF1 tiles in cyan, AF2 tiles in yellowish-green. Staging regions: NA-USA-MX-CENTRAL in light blue, SA-WEST in light green, SA-EAST in dark green, drawn over the regions they replace. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
@@ -21,8 +21,13 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 | Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
 | Europe - Part 2 | EU2 | 0.1.0 | 883 | 11.1 GB | 578.9 MB |
 | North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
+| North America: United States, Mexico and Central America | NA-USA-MX-CENTRAL | 0.1.1 | 1,817 | 26.3 GB | 1.9 GB |
 | Oceania | OC | 0.2.0 | 1,276 | 8.7 GB | 239 MB |
 | South America | SA | 0.2.0 | 1,734 | 26.5 GB | 1.1 GB |
+| South America: East | SA-EAST | 0.1.0 | 1,188 | 11.1 GB | 697.8 MB |
+| South America: West | SA-WEST | 0.1.0 | 691 | 10.8 GB | 342.0 MB |
+
+The world scenery is being rebuilt into smaller regions. NA-USA-MX-CENTRAL, SA-EAST and SA-WEST are on the staging channel and will replace NA and SA once they are promoted. NA-CANADA-GREENLAND, the other half of the NA replacement, is still being built.
 
 ## Installation
 
@@ -33,6 +38,15 @@ xearthlayer config set packages.library_url https://raw.githubusercontent.com/sa
 # Install a region
 xearthlayer packages install na --type ortho
 xearthlayer packages install na --type overlay
+```
+
+### Staging Channel
+
+Regions under test are published on the `staging` branch. To install them, point at the staging library index:
+
+```bash
+xearthlayer packages install sa-west \
+  --library-url https://raw.githubusercontent.com/samsoir/xearthlayer-regional-scenery/staging/xearthlayer_package_library.txt
 ```
 
 ## Package Downloads
@@ -169,6 +183,18 @@ Complete continental coverage including:
 - **Offshore Islands** - Galápagos and other coastal islands
 
 Geographic extent: -56° to +00° latitude (Equator to Cape Horn)
+
+### North America: United States, Mexico and Central America (NA-USA-MX-CENTRAL) v0.1.1 (staging)
+
+Continental United States, Alaska including the Aleutian Islands, Hawaii, Mexico, Central America, the Caribbean and Bermuda. Replaces NA together with NA-CANADA-GREENLAND.
+
+### South America: West (SA-WEST) v0.1.0 (staging)
+
+Chile, Peru, Bolivia, Ecuador, Colombia, Venezuela, Guyana, Suriname and French Guiana, with Easter Island, Pitcairn Island, the Galápagos Islands, Trinidad, Aruba, Curaçao and Bonaire. Replaces SA together with SA-EAST. Tiles along the border with SA-EAST are included in both regions, so either region is complete on its own.
+
+### South America: East (SA-EAST) v0.1.0 (staging)
+
+Brazil, Argentina, Paraguay and Uruguay, with the Falkland Islands and South Georgia. Replaces SA together with SA-WEST. Tiles along the border with SA-WEST are included in both regions, so either region is complete on its own.
 
 ## Website Sync
 
