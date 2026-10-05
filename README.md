@@ -21,8 +21,9 @@ The world scenery is being rebuilt into smaller regions, starting from these thr
 ## Installation
 
 ```bash
-# Configure the package library URL
-xearthlayer config set packages.library_url https://raw.githubusercontent.com/samsoir/xearthlayer-regional-scenery/main/xearthlayer_package_library.txt
+# The package library URL. This is the default, so it is only needed if you
+# have pointed XEarthLayer somewhere else (for example at the staging channel)
+xearthlayer config set packages.library_url https://xearthlayer.app/packages/xearthlayer_package_library.txt
 
 # Install a region
 xearthlayer packages install na-usa-mx-central --type ortho
