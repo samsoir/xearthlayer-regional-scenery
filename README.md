@@ -6,28 +6,17 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA tiles in blue, EU tiles in orange, EU2 tiles in tangerine, SA tiles in green, OC tiles in purple, AS1 tiles in firebrick, AS2 tiles in crimson, AS3 tiles in red, AS4 tiles in palevioletred, AF1 tiles in cyan, AF2 tiles in yellowish-green. Staging regions: NA-USA-MX-CENTRAL in light blue, SA-WEST in light green, SA-EAST in dark green, drawn over the regions they replace. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA-USA-MX-CENTRAL tiles in light blue, SA-WEST tiles in light green, SA-EAST tiles in dark green. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
 | Region | Code | Version | Tiles | Ortho Size | Overlay Size |
 |--------|------|---------|-------|------------|--------------|
-| Africa - Part 1 | AF1 | 0.1.0 | 1,718 | 10.5 GB | 722.6 MB |
-| Africa - Part 2 | AF2 | 0.1.0 | 1,058 | 7.9 GB | 541 MB |
-| Asia - Part 1 | AS1 | 0.1.0 | 1,264 | 21.3 GB | 728 MB |
-| Asia - Part 2 | AS2 | 0.1.0 | 1,615 | 17.3 GB | 1.3 GB |
-| Asia - Part 3 | AS3 | 0.1.0 | 901 | 13.3 GB | 1.3 GB |
-| Asia - Part 4 | AS4 | 0.1.0 | 2,705 | 23.1 GB | 408.7 MB |
-| Europe | EU | 0.1.1 | 1,995 | 29.8 GB | 2.1 GB |
-| Europe - Part 2 | EU2 | 0.1.0 | 883 | 11.1 GB | 578.9 MB |
-| North America | NA | 0.2.3 | 2,860 | 72.9 GB | 2.5 GB |
 | North America: United States, Mexico and Central America | NA-USA-MX-CENTRAL | 0.1.1 | 1,817 | 26.3 GB | 1.9 GB |
-| Oceania | OC | 0.2.0 | 1,276 | 8.7 GB | 239 MB |
-| South America | SA | 0.2.0 | 1,734 | 26.5 GB | 1.1 GB |
 | South America: East | SA-EAST | 0.1.0 | 1,188 | 11.1 GB | 697.8 MB |
 | South America: West | SA-WEST | 0.1.0 | 691 | 10.8 GB | 342.0 MB |
 
-The world scenery is being rebuilt into smaller regions. NA-USA-MX-CENTRAL, SA-EAST and SA-WEST are on the staging channel and will replace NA and SA once they are promoted. NA-CANADA-GREENLAND, the other half of the NA replacement, is still being built.
+The world scenery is being rebuilt into smaller regions, starting from these three, which are on the staging channel. More regions will be added as they are rebuilt; NA-CANADA-GREENLAND is next.
 
 ## Installation
 
@@ -36,8 +25,8 @@ The world scenery is being rebuilt into smaller regions. NA-USA-MX-CENTRAL, SA-E
 xearthlayer config set packages.library_url https://raw.githubusercontent.com/samsoir/xearthlayer-regional-scenery/main/xearthlayer_package_library.txt
 
 # Install a region
-xearthlayer packages install na --type ortho
-xearthlayer packages install na --type overlay
+xearthlayer packages install na-usa-mx-central --type ortho
+xearthlayer packages install na-usa-mx-central --type overlay
 ```
 
 ### Staging Channel
@@ -57,144 +46,17 @@ For manual downloads, see the [Releases](https://github.com/samsoir/xearthlayer-
 
 ## Coverage Details
 
-### Europe (EU) v0.1.1
-
-Expanded coverage including:
-- United Kingdom & Ireland
-- France, Germany, Benelux
-- Spain, Portugal
-- Italy, Switzerland, Austria, Alps
-- Scandinavia (Norway, Sweden, Finland, Denmark)
-- Iceland
-- Eastern Europe (Poland, Czech Republic, Hungary, Balkans)
-- Mediterranean (Greece, Turkey, Cyprus)
-- Baltic States
-
-### Europe - Part 2 (EU2) v0.1.0
-
-Initial release covering:
-- **Eastern Europe** - Bulgaria, Romania, Moldova, Ukraine, Belarus
-- **Baltic States** - Estonia, Latvia, Lithuania (eastern coverage)
-- **Scandinavia** - Finland, Sweden (east), Norway (north and east)
-- **Eastern Mediterranean** - Turkey, Cyprus
-- **Caucasus** - Georgia, Armenia, Azerbaijan
-- **European Russia** - Moscow, St Petersburg, Volga region, North Caucasus
-- **Western Siberia** - extending to the Ural Mountains and slightly beyond
-- **Russian Arctic** - Kola, Kanin, Yamal, Gydan peninsulas, Novaya Zemlya
-
-Geographic extent: +35° to +77° latitude, +026° to +068° longitude
-
-### North America (NA) v0.2.3
-
-Expanded coverage including:
-- **Hawaii** - Main islands
-- **Alaska** - Major areas
-- **Canada** - Partial coverage
-- **Contiguous 48 States** - Partial coverage
-- **Caribbean** - Islands and coastal areas
-- **Mexico** - Coverage areas
-
-Geographic extent: +07° to +71° latitude, -078° to -163° longitude
-
-### Oceania (OC) v0.2.0
-
-Expanded coverage including:
-- **Australia** - Complete mainland and Tasmania
-- **New Zealand** - North and South Islands
-- **Papua New Guinea** - Comprehensive coverage
-- **Fiji** - Main islands
-- **French Polynesia** - Tahiti and surrounding islands
-- **Vanuatu** - Island chain coverage
-- **Solomon Islands** - Major islands
-
-Geographic extent: -48° to +02° latitude, +112° to -149° longitude
-
-### Africa - Part 1 (AF1) v0.1.0
-
-Initial release covering:
-- **North Africa** - Morocco, Algeria, Tunisia, Libya, Egypt, Western Sahara
-- **Sahel** - Mauritania, Mali, Niger, Chad, Sudan, South Sudan
-- **West Africa** - Senegal, Gambia, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Benin, Nigeria
-- **Central/East Africa** - Cameroon, Central African Republic, Ethiopia, Somalia, Djibouti
-
-Geographic extent: +03° to +37° latitude, -018° to +054° longitude
-
-### Africa - Part 2 (AF2) v0.1.0
-
-Initial release covering:
-- **Southern Africa** - South Africa, Namibia, Botswana, Zimbabwe, Zambia, Malawi
-- **East Africa** - Tanzania, Kenya, Uganda, Rwanda, Burundi, Ethiopia (partial)
-- **Central Africa** - DRC, Angola, Congo, Gabon, Cameroon (partial)
-- **Islands** - Madagascar, Mauritius, Seychelles, Comoros, Réunion
-
-Geographic extent: -35° to +05° latitude, +08° to +58° longitude
-
-### Asia - Part 1 (AS1) v0.1.0
-
-Initial release covering:
-- **China** - Broad coverage of mainland China, including Xinjiang, Tibet, Inner Mongolia, and Hainan
-- **Mongolia** - Full country coverage
-- **Hong Kong** and **Macau** - Special Administrative Regions
-
-Geographic extent: +18° to +53° latitude, +073° to +134° longitude
-
-### Asia - Part 2 (AS2) v0.1.0
-
-Initial release covering:
-- **Middle East** - Saudi Arabia, UAE, Oman, Yemen, Qatar, Bahrain, Kuwait, Iran, Iraq, Syria, Jordan, Israel, Lebanon, eastern Turkey
-- **South Asia** - Pakistan, India, Nepal, Bhutan, Bangladesh, Sri Lanka, Maldives
-- **Central Asia** - Afghanistan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan
-- **Northern Asia** - Western China (Xinjiang, Tibet), western Mongolia, southern Russian border regions
-- **Indian Ocean Islands** - Chagos Archipelago, Lakshadweep, and other coastal/offshore islands
-
-Geographic extent: -08° to +55° latitude, +034° to +097° longitude
-
-### Asia - Part 3 (AS3) v0.1.0
-
-Initial release covering:
-- **South East Asia** - Indonesia, Malaysia, Singapore, Philippines, Vietnam, Thailand, Cambodia, Myanmar
-- **East Asia** - Japan (all main islands), South Korea, Taiwan
-- **Eastern Russia** - Sakhalin, Kuril Islands
-
-Geographic extent: -13° to +54° latitude, +96° to +152° longitude
-
-### Asia - Part 4 (AS4) v0.1.0
-
-Initial release covering Russia east of the Ural Mountains:
-- **Western Siberia** - extending east from the Urals (Tyumen, Omsk, Tomsk, Novosibirsk regions)
-- **Central Siberia** - Krasnoyarsk Krai, Tuva, Khakassia, Irkutsk Oblast, Buryatia
-- **Eastern Siberia / Yakutia** - Sakha Republic, Yakutsk, Lake Baikal area
-- **Russian Far East** - Khabarovsk Krai, Primorsky Krai (Vladivostok), Amur Oblast, Magadan
-- **Kamchatka Peninsula** - Petropavlovsk-Kamchatsky and the volcanic chain
-- **Chukotka Peninsula** - including territory across the antimeridian
-- **Russian Arctic Islands** - Severnaya Zemlya, New Siberian Islands, Wrangel Island, Franz Josef Land area
-
-Geographic extent: +42° to +81° latitude, +044° east through +180° / -180° to -169° west
-
-### South America (SA) v0.2.0
-
-Complete continental coverage including:
-- **Brazil** - Comprehensive coverage
-- **Argentina** - Full coverage including Patagonia
-- **Chile** - Full coverage from Atacama to Tierra del Fuego
-- **Peru, Bolivia, Ecuador, Colombia, Venezuela** - Complete coverage
-- **Paraguay, Uruguay, Guyana, Suriname, French Guiana** - Complete coverage
-- **Falkland Islands** - Included
-- **Offshore Islands** - Galápagos and other coastal islands
-
-Geographic extent: -56° to +00° latitude (Equator to Cape Horn)
-
 ### North America: United States, Mexico and Central America (NA-USA-MX-CENTRAL) v0.1.1 (staging)
 
-Continental United States, Alaska including the Aleutian Islands, Hawaii, Mexico, Central America, the Caribbean and Bermuda. Replaces NA together with NA-CANADA-GREENLAND.
+Continental United States, Alaska including the Aleutian Islands, Hawaii, Mexico, Central America, the Caribbean and Bermuda. Together with NA-CANADA-GREENLAND, still being built, it covers North America.
 
 ### South America: West (SA-WEST) v0.1.0 (staging)
 
-Chile, Peru, Bolivia, Ecuador, Colombia, Venezuela, Guyana, Suriname and French Guiana, with Easter Island, Pitcairn Island, the Galápagos Islands, Trinidad, Aruba, Curaçao and Bonaire. Replaces SA together with SA-EAST. Tiles along the border with SA-EAST are included in both regions, so either region is complete on its own.
+Chile, Peru, Bolivia, Ecuador, Colombia, Venezuela, Guyana, Suriname and French Guiana, with Easter Island, Pitcairn Island, the Galápagos Islands, Trinidad, Aruba, Curaçao and Bonaire. Tiles along the border with SA-EAST are included in both regions, so either region is complete on its own.
 
 ### South America: East (SA-EAST) v0.1.0 (staging)
 
-Brazil, Argentina, Paraguay and Uruguay, with the Falkland Islands and South Georgia. Replaces SA together with SA-WEST. Tiles along the border with SA-WEST are included in both regions, so either region is complete on its own.
+Brazil, Argentina, Paraguay and Uruguay, with the Falkland Islands and South Georgia. Tiles along the border with SA-WEST are included in both regions, so either region is complete on its own.
 
 ## Website Sync
 
