@@ -114,6 +114,15 @@
           "installed_bytes": 697540659
         }
       }
+    },
+    "EU-WEST": {
+      "name": "Europe: West",
+      "coverage": "The United Kingdom, Ireland, Iceland, the Faroe Islands, France, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Germany, Denmark, Switzerland, Austria and Italy, with the Azores, the Balearic Islands, Corsica, Sardinia, Sicily, Malta and Jan Mayen",
+      "color": "#0044cc",
+      "status": "staging",
+      "supersedes": [
+        "EU"
+      ]
     }
   }
 }
