@@ -27,7 +27,17 @@
       "status": "staging",
       "supersedes": [
         "NA"
-      ]
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 36700675723,
+          "installed_bytes": 41243422684
+        },
+        "overlay": {
+          "download_bytes": 248092515,
+          "installed_bytes": 247894379
+        }
+      }
     },
     "NA-CANADA-EAST": {
       "name": "North America: Eastern Canada",
@@ -36,7 +46,17 @@
       "status": "staging",
       "supersedes": [
         "NA"
-      ]
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 47690742643,
+          "installed_bytes": 51932105205
+        },
+        "overlay": {
+          "download_bytes": 301510668,
+          "installed_bytes": 301340788
+        }
+      }
     },
     "NA-GREENLAND": {
       "name": "North America: Greenland",
@@ -45,7 +65,17 @@
       "status": "staging",
       "supersedes": [
         "NA"
-      ]
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 2496948452,
+          "installed_bytes": 3268328785
+        },
+        "overlay": {
+          "download_bytes": 2629917,
+          "installed_bytes": 2667674
+        }
+      }
     },
     "SA-WEST": {
       "name": "South America: West",

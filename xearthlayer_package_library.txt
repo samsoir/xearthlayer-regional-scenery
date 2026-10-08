@@ -1,11 +1,17 @@
 XEARTHLAYER REGIONAL SCENERY PACKAGE LIBRARY
 1.0.0
 EARTH
-64
-2026-10-05T00:47:32Z
-6
+70
+2026-10-08T08:42:28Z
+12
 
 
+b0c90b4bf13ad7d9d81be591e1c304b26e42d16c86609f6fdc69b89d17e77c44  Y  NA-CANADA-EAST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-east-v0.1.0/yzXEL_na-canada-east_overlay-metadata.txt
+f5a6387bba7e2b7fd043a72386c14a25ece2bc812e3d408b1825e768872ed463  Z  NA-CANADA-EAST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-east-v0.1.0/zzXEL_na-canada-east_ortho-metadata.txt
+5618e6008c4ebca5a69fb24863953baf3f0348b0b6225288d32d7ee89214eded  Y  NA-CANADA-WEST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-west-v0.1.0/yzXEL_na-canada-west_overlay-metadata.txt
+4bb99e4ef021941e029b053edbb85c51b9520177d7cd697c044f841ec8d2ebee  Z  NA-CANADA-WEST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-west-v0.1.0/zzXEL_na-canada-west_ortho-metadata.txt
+6688da40d65c4adda29aed14fcd0422d6078fa96e031684f6c12858182012c42  Y  NA-GREENLAND  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-greenland-v0.1.0/yzXEL_na-greenland_overlay-metadata.txt
+8fbec7adc4d92682bac50090f3ec2b2d5cc5f7ea84ce526fea822563af0ab676  Z  NA-GREENLAND  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-greenland-v0.1.0/zzXEL_na-greenland_ortho-metadata.txt
 209b7c0f2b591362d29c6a117baa2a091d5b554e8f32c4043bf158c9a5e4d798  Y  NA-USA-MX-CENTRAL  0.1.1  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-usa-mx-central-v0.1.1/yzXEL_na-usa-mx-central_overlay-metadata.txt
 efcecef9789f06e75cbfc55bc8cd14a7df5db3c823ef00c1943a34c1f5eb6616  Z  NA-USA-MX-CENTRAL  0.1.1  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-usa-mx-central-v0.1.1/zzXEL_na-usa-mx-central_ortho-metadata.txt
 d943860dd4565b4c47310ecffaf4706b15c3556195d1b72089f459009bcdfe7b  Y  SA-EAST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/sa-east-v0.1.0/yzXEL_sa-east_overlay-metadata.txt
