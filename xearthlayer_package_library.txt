@@ -1,11 +1,13 @@
 XEARTHLAYER REGIONAL SCENERY PACKAGE LIBRARY
 1.0.0
 EARTH
-70
-2026-10-08T08:42:28Z
-12
+72
+2026-10-08T17:46:59Z
+14
 
 
+efe5cd6ef2ba302fb8f5f2aa45f5e9d2c7cef75e82e3ce2fd6ff8813f0787682  Y  EU-WEST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/eu-west-v0.1.0/yzXEL_eu-west_overlay-metadata.txt
+fbd9351cf1c9b912ccae653aa877d73601bc39769a3b8a1aa3b96dc69eb85648  Z  EU-WEST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/eu-west-v0.1.0/zzXEL_eu-west_ortho-metadata.txt
 b0c90b4bf13ad7d9d81be591e1c304b26e42d16c86609f6fdc69b89d17e77c44  Y  NA-CANADA-EAST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-east-v0.1.0/yzXEL_na-canada-east_overlay-metadata.txt
 f5a6387bba7e2b7fd043a72386c14a25ece2bc812e3d408b1825e768872ed463  Z  NA-CANADA-EAST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-east-v0.1.0/zzXEL_na-canada-east_ortho-metadata.txt
 5618e6008c4ebca5a69fb24863953baf3f0348b0b6225288d32d7ee89214eded  Y  NA-CANADA-WEST  0.1.0  https://github.com/samsoir/xearthlayer-regional-scenery/releases/download/na-canada-west-v0.1.0/yzXEL_na-canada-west_overlay-metadata.txt

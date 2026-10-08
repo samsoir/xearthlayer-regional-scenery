@@ -122,7 +122,17 @@
       "status": "staging",
       "supersedes": [
         "EU"
-      ]
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 9472546386,
+          "installed_bytes": 10811196054
+        },
+        "overlay": {
+          "download_bytes": 1210465270,
+          "installed_bytes": 1210194020
+        }
+      }
     }
   }
 }

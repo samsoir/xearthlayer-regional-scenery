@@ -6,12 +6,13 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA-USA-MX-CENTRAL tiles in light blue, NA-CANADA-WEST in mid blue, NA-CANADA-EAST in slate blue, NA-GREENLAND in ice blue, SA-WEST in light green, SA-EAST in dark green. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*NA-USA-MX-CENTRAL tiles in light blue, NA-CANADA-WEST in mid blue, NA-CANADA-EAST in slate blue, NA-GREENLAND in ice blue, SA-WEST in light green, SA-EAST in dark green, EU-WEST in EU flag blue. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
 | Region | Code | Version | Tiles | Ortho Size | Overlay Size |
 |--------|------|---------|-------|------------|--------------|
+| Europe: West | EU-WEST | 0.1.0 | 493 | 9.5 GB | 1.2 GB |
 | North America: Eastern Canada | NA-CANADA-EAST | 0.1.0 | 1,054 | 47.7 GB | 301.5 MB |
 | North America: Western Canada | NA-CANADA-WEST | 0.1.0 | 1,117 | 36.7 GB | 248.1 MB |
 | North America: Greenland | NA-GREENLAND | 0.1.0 | 802 | 2.5 GB | 2.6 MB |
@@ -19,7 +20,7 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 | South America: East | SA-EAST | 0.1.0 | 1,188 | 11.1 GB | 697.8 MB |
 | South America: West | SA-WEST | 0.1.0 | 691 | 10.8 GB | 342.0 MB |
 
-The world scenery is being rebuilt into smaller regions, all on the staging channel for now. North America and South America are complete; more regions will be added as they are rebuilt, with Europe next.
+The world scenery is being rebuilt into smaller regions, all on the staging channel for now. North America and South America are complete. Europe is being rebuilt as three regions, West, Central and East, starting with EU-WEST.
 
 ## Installation
 
@@ -49,6 +50,10 @@ Packages are distributed as GitHub Release assets. The package manager handles d
 For manual downloads, see the [Releases](https://github.com/samsoir/xearthlayer-regional-scenery/releases) page.
 
 ## Coverage Details
+
+### Europe: West (EU-WEST) v0.1.0 (staging)
+
+The United Kingdom, Ireland, Iceland, the Faroe Islands, France, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Germany, Denmark, Switzerland, Austria and Italy, with the Azores, the Balearic Islands, Corsica, Sardinia, Sicily, Malta and Jan Mayen.
 
 ### North America: United States, Mexico and Central America (NA-USA-MX-CENTRAL) v0.1.1 (staging)
 
