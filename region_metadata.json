@@ -1,136 +1,328 @@
 {
   "schema_version": 2,
   "regions": {
-    "NA-USA-MX-CENTRAL": {
-      "name": "North America: United States, Mexico and Central America",
-      "coverage": "Continental United States, Alaska including the Aleutian Islands, Hawaii, Mexico, Central America, the Caribbean and Bermuda",
-      "color": "#4da6ff",
+    "NA-USA-BERMUDA-BAHAMAS": {
+      "name": "North America: United States, Bermuda and the Bahamas",
+      "coverage": "The contiguous United States, Alaska including the Aleutian and Pribilof Islands, Hawaii including the Northwestern Hawaiian Islands and Midway, Bermuda, the Bahamas and the Turks and Caicos Islands",
+      "color": "#0091f8",
       "status": "staging",
       "supersedes": [
         "NA"
       ],
       "size": {
         "ortho": {
-          "download_bytes": 26302771608,
-          "installed_bytes": 29659537106
+          "download_bytes": 12485690819,
+          "installed_bytes": 12557275776
         },
         "overlay": {
-          "download_bytes": 1907289022,
-          "installed_bytes": 1906680500
+          "download_bytes": 1519713243,
+          "installed_bytes": 1519029535
+        }
+      }
+    },
+    "NA-MEXICO-CENTRAL": {
+      "name": "North America: Mexico, Central America and the Caribbean",
+      "coverage": "Mexico including the Revillagigedo Islands and Clipperton, Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, and the Caribbean from Cuba and the Cayman Islands through Hispaniola, Puerto Rico and the Lesser Antilles",
+      "color": "#99c3e1",
+      "status": "staging",
+      "supersedes": [
+        "NA"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 4008999199,
+          "installed_bytes": 4022855737
+        },
+        "overlay": {
+          "download_bytes": 409203656,
+          "installed_bytes": 409018113
         }
       }
     },
     "NA-CANADA-WEST": {
       "name": "North America: Western Canada",
-      "coverage": "British Columbia, Alberta, Saskatchewan, Manitoba, Yukon, the Northwest Territories and western Nunavut, west of 95°W",
-      "color": "#3a7dbf",
+      "coverage": "Canada west of 95 degrees west: British Columbia including Haida Gwaii, Alberta, Saskatchewan, western Manitoba, Yukon, the Northwest Territories and western Nunavut, with the western Arctic Archipelago",
+      "color": "#153247",
       "status": "staging",
       "supersedes": [
         "NA"
       ],
       "size": {
         "ortho": {
-          "download_bytes": 36700675723,
-          "installed_bytes": 41243422684
+          "download_bytes": 10233540664,
+          "installed_bytes": 10342797270
         },
         "overlay": {
-          "download_bytes": 248092515,
-          "installed_bytes": 247894379
+          "download_bytes": 248148094,
+          "installed_bytes": 247929071
         }
       }
     },
     "NA-CANADA-EAST": {
       "name": "North America: Eastern Canada",
-      "coverage": "Ontario, Quebec, New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland and Labrador, and eastern Nunavut including Baffin and Ellesmere Islands, east of 95°W",
-      "color": "#1b344c",
+      "coverage": "Canada east of 95 degrees west: eastern Manitoba, Ontario, Quebec, the Atlantic provinces including Sable Island, Newfoundland and Labrador, eastern Nunavut and the eastern Arctic Archipelago, with Saint Pierre and Miquelon",
+      "color": "#00497e",
       "status": "staging",
       "supersedes": [
         "NA"
       ],
       "size": {
         "ortho": {
-          "download_bytes": 47690742643,
-          "installed_bytes": 51932105205
+          "download_bytes": 13362496708,
+          "installed_bytes": 13483635005
         },
         "overlay": {
-          "download_bytes": 301510668,
-          "installed_bytes": 301340788
+          "download_bytes": 282492568,
+          "installed_bytes": 282297890
         }
       }
     },
     "NA-GREENLAND": {
       "name": "North America: Greenland",
       "coverage": "Greenland",
-      "color": "#b2d9ff",
-      "status": "staging",
-      "supersedes": [
-        "NA"
-      ],
-      "size": {
-        "ortho": {
-          "download_bytes": 2496948452,
-          "installed_bytes": 3268328785
-        },
-        "overlay": {
-          "download_bytes": 2629917,
-          "installed_bytes": 2667674
-        }
-      }
-    },
-    "SA-WEST": {
-      "name": "South America: West",
-      "coverage": "Chile, Peru, Bolivia, Ecuador, Colombia, Venezuela, Guyana, Suriname and French Guiana, with Easter Island, Pitcairn Island, the Galápagos Islands, Trinidad, Aruba, Curaçao and Bonaire",
-      "color": "#81c784",
-      "status": "staging",
-      "supersedes": [
-        "SA"
-      ],
-      "size": {
-        "ortho": {
-          "download_bytes": 10820602667,
-          "installed_bytes": 11642766625
-        },
-        "overlay": {
-          "download_bytes": 342013649,
-          "installed_bytes": 341851523
-        }
-      }
-    },
-    "SA-EAST": {
-      "name": "South America: East",
-      "coverage": "Brazil, Argentina, Paraguay and Uruguay, with the Falkland Islands and South Georgia",
-      "color": "#2e7d32",
-      "status": "staging",
-      "supersedes": [
-        "SA"
-      ],
-      "size": {
-        "ortho": {
-          "download_bytes": 11147962622,
-          "installed_bytes": 12603759605
-        },
-        "overlay": {
-          "download_bytes": 697841682,
-          "installed_bytes": 697540659
-        }
-      }
-    },
-    "EU-WEST": {
-      "name": "Europe: West",
-      "coverage": "The United Kingdom, Ireland, Iceland, the Faroe Islands, France, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Germany, Denmark, Switzerland, Austria and Italy, with the Azores, the Balearic Islands, Corsica, Sardinia, Sicily, Malta and Jan Mayen",
-      "color": "#0044cc",
+      "color": "#50b3f9",
       "status": "staging",
       "supersedes": [
         "EU"
       ],
       "size": {
         "ortho": {
-          "download_bytes": 9472546386,
-          "installed_bytes": 10811196054
+          "download_bytes": 1160479654,
+          "installed_bytes": 1221666112
         },
         "overlay": {
-          "download_bytes": 1210465270,
-          "installed_bytes": 1210194020
+          "download_bytes": 2628235,
+          "installed_bytes": 2670644
+        }
+      }
+    },
+    "SA-WEST": {
+      "name": "South America: West",
+      "coverage": "Colombia, Venezuela, Ecuador including the Galapagos Islands, Peru, Bolivia, Chile including Easter Island and the Juan Fernandez Islands, the Guianas, Trinidad and Tobago, Aruba, Curacao and Bonaire, and the Pitcairn Islands",
+      "color": "#88fd92",
+      "status": "staging",
+      "supersedes": [
+        "SA"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 8588098966,
+          "installed_bytes": 8611947939
+        },
+        "overlay": {
+          "download_bytes": 342811625,
+          "installed_bytes": 342611432
+        }
+      }
+    },
+    "SA-EAST": {
+      "name": "South America: East",
+      "coverage": "Brazil including Fernando de Noronha, Argentina, Paraguay, Uruguay, the Falkland Islands, South Georgia and the South Sandwich Islands",
+      "color": "#0dbf1c",
+      "status": "staging",
+      "supersedes": [
+        "SA"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 7914784782,
+          "installed_bytes": 7952624544
+        },
+        "overlay": {
+          "download_bytes": 697967446,
+          "installed_bytes": 697587053
+        }
+      }
+    },
+    "EU-WEST": {
+      "name": "Europe: West",
+      "coverage": "Europe west of Russia: the British Isles, Iceland, the Faroe Islands, Scandinavia including Svalbard and Jan Mayen, Finland, the Baltic states, Poland, Belarus, Ukraine, Moldova, Western and Central Europe, Iberia with the Azores, the Mediterranean islands, the Balkans, Greece and European Turkey",
+      "color": "#1633ef",
+      "status": "staging",
+      "supersedes": [
+        "EU"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 13980572329,
+          "installed_bytes": 14078422864
+        },
+        "overlay": {
+          "download_bytes": 1969621635,
+          "installed_bytes": 1968849979
+        }
+      }
+    },
+    "EU-EAST": {
+      "name": "Europe: East",
+      "coverage": "European Russia west of the Urals, from St Petersburg and the Kola Peninsula to the Volga and the northern Caucasus, including Novaya Zemlya",
+      "color": "#4b5ccb",
+      "status": "staging",
+      "supersedes": [
+        "EU2"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 3372276621,
+          "installed_bytes": 3424444722
+        },
+        "overlay": {
+          "download_bytes": 330443243,
+          "installed_bytes": 330239302
+        }
+      }
+    },
+    "AF-NORTH": {
+      "name": "Africa: North",
+      "coverage": "North and West Africa: Morocco, Western Sahara, Algeria, Tunisia, Libya, Egypt, Sudan, Chad, the Sahel and the West African coast from Mauritania to Nigeria, with the Canary Islands, Madeira and Cabo Verde",
+      "color": "#ff9924",
+      "status": "staging",
+      "supersedes": [
+        "AF1"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 6468699508,
+          "installed_bytes": 6495641951
+        },
+        "overlay": {
+          "download_bytes": 558525727,
+          "installed_bytes": 558279319
+        }
+      }
+    },
+    "AF-SOUTH": {
+      "name": "Africa: South",
+      "coverage": "Central, East and Southern Africa from Cameroon, South Sudan, Ethiopia and the Horn of Africa to South Africa, with Madagascar, the Indian Ocean islands including the Seychelles, Mauritius and Reunion, and the South Atlantic islands of St Helena, Ascension, Tristan da Cunha, Gough and Bouvet",
+      "color": "#ffcc92",
+      "status": "staging",
+      "supersedes": [
+        "AF1",
+        "AF2"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 8301715433,
+          "installed_bytes": 8334369037
+        },
+        "overlay": {
+          "download_bytes": 622412200,
+          "installed_bytes": 622011053
+        }
+      }
+    },
+    "AS-INDIA-MIDDLE-EAST-HIMALAYAN": {
+      "name": "Asia: India, the Middle East and the Himalaya",
+      "coverage": "The Arabian Peninsula, the Levant, Cyprus, Anatolia, the Caucasus, Iran, Iraq, Central Asia including Kazakhstan, Afghanistan, Pakistan, India, Nepal, Bhutan, Bangladesh, Sri Lanka and the Maldives",
+      "color": "#fa0022",
+      "status": "staging",
+      "supersedes": [
+        "AS2",
+        "EU2"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 14884554831,
+          "installed_bytes": 14933939336
+        },
+        "overlay": {
+          "download_bytes": 1320043967,
+          "installed_bytes": 1319414243
+        }
+      }
+    },
+    "AS-CHINA-MONGOLIA": {
+      "name": "Asia: China and Mongolia",
+      "coverage": "China including Hainan, Hong Kong and Macau, and Mongolia",
+      "color": "#d26170",
+      "status": "staging",
+      "supersedes": [
+        "AS1"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 16952351316,
+          "installed_bytes": 16985456213
+        },
+        "overlay": {
+          "download_bytes": 679063934,
+          "installed_bytes": 678693106
+        }
+      }
+    },
+    "AS-RUSSIA-CENTRAL": {
+      "name": "Asia: Central Russia",
+      "coverage": "Siberia from the Urals to Lake Baikal and Transbaikalia, including Franz Josef Land, Severnaya Zemlya and the Taymyr Peninsula",
+      "color": "#e9afb7",
+      "status": "staging",
+      "supersedes": [
+        "AS4"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 4585276847,
+          "installed_bytes": 4669124061
+        },
+        "overlay": {
+          "download_bytes": 234978262,
+          "installed_bytes": 234719737
+        }
+      }
+    },
+    "AS-RUSSIA-EAST": {
+      "name": "Asia: Russian Far East",
+      "coverage": "The Russian Far East from Yakutia to the Bering Strait, including Chukotka, Kamchatka, the northern Kuril Islands, Sakhalin, Primorye and Wrangel Island",
+      "color": "#ff324d",
+      "status": "staging",
+      "supersedes": [
+        "AS4"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 6218495900,
+          "installed_bytes": 6282139688
+        },
+        "overlay": {
+          "download_bytes": 137012516,
+          "installed_bytes": 136820781
+        }
+      }
+    },
+    "AS-ASIA-PACIFIC": {
+      "name": "Asia: Japan, Korea and Southeast Asia",
+      "coverage": "Japan including the Ryukyu and Ogasawara Islands, the southern Kuril Islands, North and South Korea, Taiwan, Myanmar, Thailand, Laos, Cambodia, Vietnam, Malaysia, Singapore, Brunei, Indonesia, Timor-Leste, the Philippines, Palau, Guam and the Northern Mariana Islands",
+      "color": "#ff99a7",
+      "status": "staging",
+      "supersedes": [
+        "AS3"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 10186021833,
+          "installed_bytes": 10224505537
+        },
+        "overlay": {
+          "download_bytes": 1162309888,
+          "installed_bytes": 1161826744
+        }
+      }
+    },
+    "OC-AUSTRALIA-NZ-PACIFIC": {
+      "name": "Oceania: Australia, New Zealand and the Pacific",
+      "coverage": "Australia including Lord Howe, Norfolk and Macquarie Islands, New Zealand including the Chatham, Kermadec and subantarctic islands, Papua New Guinea, Melanesia, Micronesia and Polynesia from the Marshall Islands and Kiribati to Fiji, Samoa, Tonga, the Cook Islands and French Polynesia",
+      "color": "#b723e8",
+      "status": "staging",
+      "supersedes": [
+        "OC"
+      ],
+      "size": {
+        "ortho": {
+          "download_bytes": 5165746089,
+          "installed_bytes": 5202786761
+        },
+        "overlay": {
+          "download_bytes": 225851079,
+          "installed_bytes": 225643975
         }
       }
     }

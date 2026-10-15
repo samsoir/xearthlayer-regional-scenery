@@ -6,21 +6,31 @@ This repository hosts regional scenery packages for [XEarthLayer](https://github
 
 ![Tile Coverage Map](coverage.png)
 
-*NA-USA-MX-CENTRAL tiles in light blue, NA-CANADA-WEST in mid blue, NA-CANADA-EAST in slate blue, NA-GREENLAND in ice blue, SA-WEST in light green, SA-EAST in dark green, EU-WEST in EU flag blue. [View interactive map](coverage.geojson) for exact tile boundaries.*
+*Each continent has its own hue, with a different shade for each region: North America in azure, South America in green, Europe in ultramarine, Africa in amber, Asia in red and pink, and Oceania in violet. [View interactive map](coverage.geojson) for exact tile boundaries.*
 
 ## Available Regions
 
 | Region | Code | Version | Tiles | Ortho Size | Overlay Size |
 |--------|------|---------|-------|------------|--------------|
-| Europe: West | EU-WEST | 0.1.0 | 493 | 9.5 GB | 1.2 GB |
-| North America: Eastern Canada | NA-CANADA-EAST | 0.1.0 | 1,054 | 47.7 GB | 301.5 MB |
-| North America: Western Canada | NA-CANADA-WEST | 0.1.0 | 1,117 | 36.7 GB | 248.1 MB |
-| North America: Greenland | NA-GREENLAND | 0.1.0 | 802 | 2.5 GB | 2.6 MB |
-| North America: United States, Mexico and Central America | NA-USA-MX-CENTRAL | 0.1.1 | 1,817 | 26.3 GB | 1.9 GB |
-| South America: East | SA-EAST | 0.1.0 | 1,188 | 11.1 GB | 697.8 MB |
-| South America: West | SA-WEST | 0.1.0 | 691 | 10.8 GB | 342.0 MB |
+| Africa: North | AF-NORTH | 0.1.0 | 1,453 | 6.5 GB | 558.5 MB |
+| Africa: South | AF-SOUTH | 0.1.0 | 1,471 | 8.3 GB | 622.4 MB |
+| Asia: Japan, Korea and Southeast Asia | AS-ASIA-PACIFIC | 0.1.0 | 1,076 | 10.2 GB | 1.2 GB |
+| Asia: China and Mongolia | AS-CHINA-MONGOLIA | 0.1.0 | 1,270 | 17.0 GB | 679.1 MB |
+| Asia: India, the Middle East and the Himalaya | AS-INDIA-MIDDLE-EAST-HIMALAYAN | 0.1.0 | 1,769 | 14.9 GB | 1.3 GB |
+| Asia: Central Russia | AS-RUSSIA-CENTRAL | 0.1.0 | 1,492 | 4.6 GB | 235.0 MB |
+| Asia: Russian Far East | AS-RUSSIA-EAST | 0.1.0 | 1,211 | 6.2 GB | 137.0 MB |
+| Europe: East | EU-EAST | 0.1.0 | 804 | 3.4 GB | 330.4 MB |
+| Europe: West | EU-WEST | 0.2.0 | 1,235 | 14.0 GB | 2.0 GB |
+| North America: Eastern Canada | NA-CANADA-EAST | 0.2.0 | 1,132 | 13.4 GB | 282.5 MB |
+| North America: Western Canada | NA-CANADA-WEST | 0.2.0 | 1,155 | 10.2 GB | 248.1 MB |
+| North America: Greenland | NA-GREENLAND | 0.2.0 | 807 | 1.2 GB | 2.6 MB |
+| North America: Mexico, Central America and the Caribbean | NA-MEXICO-CENTRAL | 0.1.0 | 435 | 4.0 GB | 409.2 MB |
+| North America: United States, Bermuda and the Bahamas | NA-USA-BERMUDA-BAHAMAS | 0.1.0 | 1,416 | 12.5 GB | 1.5 GB |
+| Oceania: Australia, New Zealand and the Pacific | OC-AUSTRALIA-NZ-PACIFIC | 0.1.0 | 1,383 | 5.2 GB | 225.9 MB |
+| South America: East | SA-EAST | 0.2.0 | 1,206 | 7.9 GB | 698.0 MB |
+| South America: West | SA-WEST | 0.2.0 | 705 | 8.6 GB | 342.8 MB |
 
-The world scenery is being rebuilt into smaller regions, all on the staging channel for now. North America and South America are complete. Europe is being rebuilt as three regions, West, Central and East, starting with EU-WEST.
+The world scenery has been rebuilt into smaller regions, covering every continent except Antarctica. All of them are on the staging channel for now. Tiles along the border between two regions are included in both, so each region is complete on its own.
 
 ## Installation
 
@@ -30,8 +40,8 @@ The world scenery is being rebuilt into smaller regions, all on the staging chan
 xearthlayer config set packages.library_url https://xearthlayer.app/packages/xearthlayer_package_library.txt
 
 # Install a region
-xearthlayer packages install na-usa-mx-central --type ortho
-xearthlayer packages install na-usa-mx-central --type overlay
+xearthlayer packages install na-usa-bermuda-bahamas --type ortho
+xearthlayer packages install na-usa-bermuda-bahamas --type overlay
 ```
 
 ### Staging Channel
@@ -39,7 +49,7 @@ xearthlayer packages install na-usa-mx-central --type overlay
 Regions under test are published on the `staging` branch. To install them, point at the staging library index:
 
 ```bash
-xearthlayer packages install sa-west \
+xearthlayer packages install eu-west \
   --library-url https://raw.githubusercontent.com/samsoir/xearthlayer-regional-scenery/staging/xearthlayer_package_library.txt
 ```
 
@@ -51,33 +61,73 @@ For manual downloads, see the [Releases](https://github.com/samsoir/xearthlayer-
 
 ## Coverage Details
 
-### Europe: West (EU-WEST) v0.1.0 (staging)
+### Africa: North (AF-NORTH) v0.1.0 (staging)
 
-The United Kingdom, Ireland, Iceland, the Faroe Islands, France, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Germany, Denmark, Switzerland, Austria and Italy, with the Azores, the Balearic Islands, Corsica, Sardinia, Sicily, Malta and Jan Mayen.
+North and West Africa: Morocco, Western Sahara, Algeria, Tunisia, Libya, Egypt, Sudan, Chad, the Sahel and the West African coast from Mauritania to Nigeria, with the Canary Islands, Madeira and Cabo Verde.
 
-### North America: United States, Mexico and Central America (NA-USA-MX-CENTRAL) v0.1.1 (staging)
+### Africa: South (AF-SOUTH) v0.1.0 (staging)
 
-Continental United States, Alaska including the Aleutian Islands, Hawaii, Mexico, Central America, the Caribbean and Bermuda. Together with NA-CANADA-WEST, NA-CANADA-EAST and NA-GREENLAND it covers North America.
+Central, East and Southern Africa from Cameroon, South Sudan, Ethiopia and the Horn of Africa to South Africa, with Madagascar, the Indian Ocean islands including the Seychelles, Mauritius and Reunion, and the South Atlantic islands of St Helena, Ascension, Tristan da Cunha, Gough and Bouvet.
 
-### North America: Western Canada (NA-CANADA-WEST) v0.1.0 (staging)
+### Asia: Japan, Korea and Southeast Asia (AS-ASIA-PACIFIC) v0.1.0 (staging)
 
-British Columbia, Alberta, Saskatchewan, Manitoba, Yukon, the Northwest Territories and western Nunavut, west of 95°W.
+Japan including the Ryukyu and Ogasawara Islands, the southern Kuril Islands, North and South Korea, Taiwan, Myanmar, Thailand, Laos, Cambodia, Vietnam, Malaysia, Singapore, Brunei, Indonesia, Timor-Leste, the Philippines, Palau, Guam and the Northern Mariana Islands.
 
-### North America: Eastern Canada (NA-CANADA-EAST) v0.1.0 (staging)
+### Asia: China and Mongolia (AS-CHINA-MONGOLIA) v0.1.0 (staging)
 
-Ontario, Quebec, New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland and Labrador, and eastern Nunavut including Baffin and Ellesmere Islands, east of 95°W. The Canadian Shield's many lakes each need a water mask, so this region is larger per tile than its neighbours.
+China including Hainan, Hong Kong and Macau, and Mongolia.
 
-### North America: Greenland (NA-GREENLAND) v0.1.0 (staging)
+### Asia: India, the Middle East and the Himalaya (AS-INDIA-MIDDLE-EAST-HIMALAYAN) v0.1.0 (staging)
 
-Greenland, which sits on the North American tectonic plate. Tiles in Nares Strait are included in both this region and NA-CANADA-EAST, so either region is complete on its own.
+The Arabian Peninsula, the Levant, Cyprus, Anatolia, the Caucasus, Iran, Iraq, Central Asia including Kazakhstan, Afghanistan, Pakistan, India, Nepal, Bhutan, Bangladesh, Sri Lanka and the Maldives.
 
-### South America: West (SA-WEST) v0.1.0 (staging)
+### Asia: Central Russia (AS-RUSSIA-CENTRAL) v0.1.0 (staging)
 
-Chile, Peru, Bolivia, Ecuador, Colombia, Venezuela, Guyana, Suriname and French Guiana, with Easter Island, Pitcairn Island, the Galápagos Islands, Trinidad, Aruba, Curaçao and Bonaire. Tiles along the border with SA-EAST are included in both regions, so either region is complete on its own.
+Siberia from the Urals to Lake Baikal and Transbaikalia, including Franz Josef Land, Severnaya Zemlya and the Taymyr Peninsula.
 
-### South America: East (SA-EAST) v0.1.0 (staging)
+### Asia: Russian Far East (AS-RUSSIA-EAST) v0.1.0 (staging)
 
-Brazil, Argentina, Paraguay and Uruguay, with the Falkland Islands and South Georgia. Tiles along the border with SA-WEST are included in both regions, so either region is complete on its own.
+The Russian Far East from Yakutia to the Bering Strait, including Chukotka, Kamchatka, the northern Kuril Islands, Sakhalin, Primorye and Wrangel Island.
+
+### Europe: East (EU-EAST) v0.1.0 (staging)
+
+European Russia west of the Urals, from St Petersburg and the Kola Peninsula to the Volga and the northern Caucasus, including Novaya Zemlya.
+
+### Europe: West (EU-WEST) v0.2.0 (staging)
+
+Europe west of Russia: the British Isles, Iceland, the Faroe Islands, Scandinavia including Svalbard and Jan Mayen, Finland, the Baltic states, Poland, Belarus, Ukraine, Moldova, Western and Central Europe, Iberia with the Azores, the Mediterranean islands, the Balkans, Greece and European Turkey.
+
+### North America: Eastern Canada (NA-CANADA-EAST) v0.2.0 (staging)
+
+Canada east of 95 degrees west: eastern Manitoba, Ontario, Quebec, the Atlantic provinces including Sable Island, Newfoundland and Labrador, eastern Nunavut and the eastern Arctic Archipelago, with Saint Pierre and Miquelon.
+
+### North America: Western Canada (NA-CANADA-WEST) v0.2.0 (staging)
+
+Canada west of 95 degrees west: British Columbia including Haida Gwaii, Alberta, Saskatchewan, western Manitoba, Yukon, the Northwest Territories and western Nunavut, with the western Arctic Archipelago.
+
+### North America: Greenland (NA-GREENLAND) v0.2.0 (staging)
+
+Greenland.
+
+### North America: Mexico, Central America and the Caribbean (NA-MEXICO-CENTRAL) v0.1.0 (staging)
+
+Mexico including the Revillagigedo Islands and Clipperton, Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, and the Caribbean from Cuba and the Cayman Islands through Hispaniola, Puerto Rico and the Lesser Antilles.
+
+### North America: United States, Bermuda and the Bahamas (NA-USA-BERMUDA-BAHAMAS) v0.1.0 (staging)
+
+The contiguous United States, Alaska including the Aleutian and Pribilof Islands, Hawaii including the Northwestern Hawaiian Islands and Midway, Bermuda, the Bahamas and the Turks and Caicos Islands.
+
+### Oceania: Australia, New Zealand and the Pacific (OC-AUSTRALIA-NZ-PACIFIC) v0.1.0 (staging)
+
+Australia including Lord Howe, Norfolk and Macquarie Islands, New Zealand including the Chatham, Kermadec and subantarctic islands, Papua New Guinea, Melanesia, Micronesia and Polynesia from the Marshall Islands and Kiribati to Fiji, Samoa, Tonga, the Cook Islands and French Polynesia.
+
+### South America: East (SA-EAST) v0.2.0 (staging)
+
+Brazil including Fernando de Noronha, Argentina, Paraguay, Uruguay, the Falkland Islands, South Georgia and the South Sandwich Islands.
+
+### South America: West (SA-WEST) v0.2.0 (staging)
+
+Colombia, Venezuela, Ecuador including the Galapagos Islands, Peru, Bolivia, Chile including Easter Island and the Juan Fernandez Islands, the Guianas, Trinidad and Tobago, Aruba, Curacao and Bonaire, and the Pitcairn Islands.
 
 ## Website Sync
 
