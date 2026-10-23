@@ -4,8 +4,14 @@ on:
   push:
     branches:
       - main
+    # Each library generation (v1/, v2/, ...) has its own index. The root
+    # index is the pre-0.5 library, frozen; it is still watched so the
+    # website rehosts it should it ever change.
     paths:
       - 'xearthlayer_package_library.txt'
+      - 'v*/xearthlayer_package_library.txt'
+      - 'v*/region_metadata.json'
+      - 'v*/coverage.png'
 
 jobs:
   notify:
